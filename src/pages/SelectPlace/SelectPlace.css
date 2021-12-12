@@ -1,0 +1,39 @@
+#select-place-screen{
+  height: calc(100vh - 50px);
+  z-index: 3;
+}
+
+#select-place-screen h1{
+  font-size: 4rem;
+}
+
+.place-name{
+  color: white;
+  font-family: Roboto, sans-serif;
+  font-size: 3rem;
+  font-weight: 100;
+  user-select: none;
+  pointer-events: none;
+}
+
+.location-option{
+  width: calc(100% - 20px);
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all ease-in 0.05s;
+}
+.location-option:hover{
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+@media (min-width: 600px) {
+  .location-option{
+    max-width: 400px;
+  }
+}

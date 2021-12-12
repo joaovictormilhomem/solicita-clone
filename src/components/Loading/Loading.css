@@ -1,0 +1,42 @@
+.loading-screen{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  background-color: var(--background);
+  width: 100%;
+  height: 100vh;
+  z-index: 99;
+  animation: showLoading 0.15s ease-in-out;
+}
+
+.loading{
+  width: 200px;
+  height: 200px;
+  border: 5px solid var(--white);
+  border-top-color: var(--green);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.not-loading{
+  display: none;
+}
+
+@keyframes spin {
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+@keyframes showLoading{
+  from{
+      opacity: 0;
+      transform: scale(0.7);
+  }
+  to{
+      opacity: 1;
+      transform: scale(1);
+  }
+}

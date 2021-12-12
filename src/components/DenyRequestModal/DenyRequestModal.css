@@ -1,0 +1,68 @@
+.ReactModal__Content{
+  animation: showModal 0.2s ease-in-out;
+}
+
+.modal-close-button{
+  font-family: Verdana, sans-serif;
+  font-size: 1.4rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+.modal-close-button:hover{
+  color: rgb(255, 255, 255, 0.5);
+}
+
+.modal-title{
+  font-family: Roboto;
+  color: white;
+}
+
+.modal-form{
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-form textarea{
+  padding: 10px;
+  height: 114px;
+  margin-bottom: 20px;
+  resize: none;
+  font-size: 1.2rem;
+  font-family: Roboto;
+}
+
+.modal-form button{
+  font-family: Roboto;
+  color: white;
+  background-color: rgba(200, 90, 90, 0.5);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 10px;
+  float: right;
+  transition: background-color var(--hover-transition-time) ease-in-out;
+  user-select: none;
+}
+.modal-form button:hover{
+  background-color: red;
+}
+.modal-form button:disabled{
+  background-color: rgba(90, 90, 90, 0.5);
+  color: rgb(255, 255, 255, 0.1);
+  cursor:no-drop;
+}
+
+@keyframes showModal{
+  from{
+      opacity: 0;
+  }
+  to{
+      opacity: 1;
+  }
+}

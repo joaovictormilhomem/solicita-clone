@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+:root{
+    --dark-gray: #747d80;
+    --white: #FFF;
+    --green: #2ECC71;
+    --background: #660099;
+    --yellow: #feca57;
+    --gray: #576574;
+    --red: #ee5253;
+
+    --hover-transition-time: 0.2s;
+    --bg-status-transition-time: 0.5s;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.main-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    overflow-x: hidden;
+    background-color: var(--background);
+}
+
+h1{
+    font-size: 3rem;
+    user-select: none;
+}
+
+.text-base{
+    font-family: Roboto, sans-serif;
+    color: #FFF;
+}
+
+.screen{
+    width: 100vw;
+    min-height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    transition: all 1s;
+    animation: show 0.5s ease-in-out;
+}
+
+@keyframes show{
+    from{
+        transform: translateX(-15px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes copied{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@media (max-width: 380px) {
+    h1{
+      font-size: 2.3rem;
+    }
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
