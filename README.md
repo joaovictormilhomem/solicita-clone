@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# Sobre
+Esse repositório é uma cópia de um projeto pessoal desenvolvido por mim, para a Vivo, enquanto funcionário da mesma. A aplicação foi criada para realizar o controle de filas de atendimento para diversos processos que são realizados em parceria entre os times de campo, e backoffice, que dão suporte técnico para os cliente da Vivo Fibra de Goiás, Tocantins e Brasília. O sistema controla as filas, e armazena os dados sobre cada atendimento, de cada colaborador, e gera relatórios que auxiliam os gestores nas tomadas de decisões.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Nesta cópia foram excluídas as informações sigilosas, e por isso alguns processos podem não funcionar da mesma maneira que a versão que esta sendo usada atualmente pela equipe da Vivo.
 
-## Available Scripts
+# LINK
+https://app.netlify.com/sites/solicita-clone/overview
 
-In the project directory, you can run:
+# Conta para testes:
+Email: teste@teste.com
+Senha: 123123
 
-### `yarn start`
+# Conjunto de aplicações
+Na verdade o sistema se divide em 3, que são desenvolvidos separadamente.
+ - O "solicita", onde os técnicos de campo podem criar pedidos de atendimento, e acompanhar o status do mesmo.
+ - O "solicitar", onde os funcionários de backoffice podem acompanhar a fila de pedidos, e atender as solicitações, marcando o inicio e fim do atendimento, além de ter a possibilidade de negar o atendimento e passar um feedback para o técnico, se necessário.
+- O painel de administração, onde os gestores podem baixar relatórios, verificar dados sobre um atendimento específico, usando um identificador único, e ainda ver quais usuários estão online e desses, quais estão atendendo ou estão ociosos e a quanto tempo.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Você está no repositório da aplicação "solicita".
