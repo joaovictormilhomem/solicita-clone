@@ -4,7 +4,7 @@ Esse repositório é uma cópia de um projeto pessoal desenvolvido por mim, para
 Nesta cópia foram excluídas as informações sigilosas, e por isso alguns processos podem não funcionar da mesma maneira que a versão que esta sendo usada atualmente pela equipe da Vivo.
 
 # LINK
-https://app.netlify.com/sites/solicita-clone/overview
+https://solicita-clone.netlify.app/
 
 # Conta para testes:
 Email: teste@teste.com
